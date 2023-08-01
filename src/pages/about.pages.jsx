@@ -1,32 +1,45 @@
+import Profile from "../assets/jiro.jpg";
+
 import "../index.css";
-import { skills } from "../data/skills";
-import { tools } from "../data/tools";
+
+import { skills } from "../data/skills.data";
+import { tools } from "../data/tools.data";
 
 const About = () => {
   return (
     <div className="container min-h-screen mx-auto mt-20 text-white">
-      <div className="flex p-6 rounded-lg bg-slate-950">
-        <div className="flex flex-col w-1/2">
-          <div className="flex items-center gap-4">
-            <h1 className="text-3xl font-bold">About Me</h1>
-            <div className="h-[1px] w-[350px] bg-white"></div>
+      <div className="flex flex-col items-center justify-center p-6 rounded-lg bg-slate-950 md:flex-row">
+        <div
+          className="flex flex-col w-1/2"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <div className="flex flex-col items-center justify-center gap-4 md:flex-row">
+            <h1 className="text-xl font-bold text-center md:text-2xl">
+              About Me
+            </h1>
+            <div className="h-[2px] w-[350px] bg-white hidden xl:block"></div>
           </div>
           <div className="flex items-center justify-center ">
             <img
-              src="../../public/jiro.jpg"
-              alt=""
-              className="rounded-full h-80 border-[#FBBD23] border-solid border-4"
+              src={Profile}
+              alt="profile"
+              className="rounded-full h-30 md:h-80 border-[#FBBD23] border-solid border-4  mt-9"
             />
           </div>
         </div>
-        <div className="flex flex-col justify-center w-1/2">
-          <p className="mt-4 text-md">
+        <div
+          className="flex flex-col justify-center w-full md:w-1/2 md:ml-10"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <p className="mt-4 text-sm md:text-md indent-8">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
             obcaecati recusandae accusamus! Quos dolorum eligendi vitae dolor et
             officiis dolorem eum deserunt provident perspiciatis, culpa,
             assumenda deleniti vero modi hic!
           </p>
-          <p className="mt-3 text-md">
+          <p className="mt-3 text-sm md:text-md indent-8">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla sunt
             iste deleniti fugiat ducimus temporibus quam obcaecati consequatur
             consequuntur! Dolores rerum, non ullam quasi blanditiis autem,

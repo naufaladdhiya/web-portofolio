@@ -21,7 +21,7 @@ export default {
         text: "#333333",
 
         // Dark mode colors
-        darkPrimary: "#1E293B",
+        darkPrimary: "#FBBD23",
         darkSecondary: "#4B5563",
         darkBackground: "#1A202C",
         darkText: "#E2E8F0",

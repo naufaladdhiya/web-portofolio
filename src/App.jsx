@@ -8,6 +8,7 @@ import Navigation from "./components/navigation/navigation.component";
 import Home from "./pages/home.pages";
 import Project from "./pages/project.pages";
 import About from "./pages/about.pages";
+import ExperiencePage from "./pages/experience.pages";
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="project" element={<Project />} />
         <Route path="about" element={<About />} />
+        <Route path="experience" element={<ExperiencePage />} />
       </Route>
     </Routes>
   );
