@@ -7,7 +7,7 @@ import { tools } from "../data/tools.data";
 
 const About = () => {
   return (
-    <div className="container min-h-screen mx-auto mt-20 text-white">
+    <div className="container min-h-screen mx-auto text-white mt-44">
       <div className="flex flex-col items-center justify-center p-6 rounded-lg bg-slate-950 md:flex-row">
         <div
           className="flex flex-col w-1/2"
@@ -33,18 +33,17 @@ const About = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <p className="mt-4 text-sm md:text-md indent-8">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
-            obcaecati recusandae accusamus! Quos dolorum eligendi vitae dolor et
-            officiis dolorem eum deserunt provident perspiciatis, culpa,
-            assumenda deleniti vero modi hic!
+          <p className="mt-4 text-sm md:text-base indent-8">
+            Hi there! 👋 I&apos;m Naufal Addhiya, a passionate front-end
+            developer. I have a strong love for building beautiful and
+            user-friendly websites using the latest web technologies.
           </p>
-          <p className="mt-3 text-sm md:text-md indent-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla sunt
-            iste deleniti fugiat ducimus temporibus quam obcaecati consequatur
-            consequuntur! Dolores rerum, non ullam quasi blanditiis autem,
-            exercitationem iste tempora ratione eligendi, sint incidunt optio!
-            Excepturi, obcaecati. Aliquid quaerat ratione eum.
+          <p className="mt-3 text-sm md:text-md indent-8 md:text-base">
+            As a front-end beginner, I understand that there is always more to
+            learn in the ever-evolving world of web development. I embrace
+            challenges and view them as opportunities for growth. I believe in
+            the importance of continuous learning and staying up-to-date with
+            the latest trends and technologies.
           </p>
         </div>
       </div>

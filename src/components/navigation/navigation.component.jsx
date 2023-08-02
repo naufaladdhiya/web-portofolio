@@ -12,15 +12,15 @@ const Navigation = () => {
   };
   return (
     <>
-      <nav className="items-center w-full border-b-2 border-gray-400">
-        <div className="flex justify-between items-center container mx-auto min-h-[100px] ">
+      <nav className="fixed top-0 w-full border-gray-400 z-[99] shadow-2xl bg-slate-900">
+        <div className="flex justify-between items-center container mx-auto min-h-[100px]">
           <div className="text-xl text-darkPrimary md:text-2xl">
             <h1 className="font-bold">
               <Link to="/">naufalAddhiya</Link>
             </h1>
           </div>
           <div
-            className={`fixed top-0 right-0 w-3/4 h-full bg-slate-950 z-[99] transition-transform block ease-in-out duration-300 ${
+            className={`fixed top-0 right-0 w-3/4 h-full bg-slate-950 z-[99] transition-transform block ease-in-out duration-500 ${
               showMenu
                 ? "transform translate-x-0 "
                 : "transform translate-x-full"

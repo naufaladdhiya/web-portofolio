@@ -13,13 +13,6 @@ body {
   box-sizing: border-box;
 }
 
-#line::after {
-  content: "";
-  display: block;
-  width: 4px;
-  height: 100%;
-  background-color: #1a202c; /* Replace with your desired color for the line */
-  position: absolute;
-  top: 0;
-  left: -10px; /* Adjust the position of the line as needed */
+html {
+  scroll-behavior: smooth;
 }

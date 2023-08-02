@@ -5,7 +5,7 @@ import EXPERIENCE_DATA from "../data/experience.data";
 
 const Project = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen mt-6 mb-9">
+    <div className="flex items-center justify-center min-h-screen mt-32 mb-9">
       <div className="flex flex-col">
         <h1 className="text-2xl font-bold text-center md:text-3xl">
           Past Project Experince

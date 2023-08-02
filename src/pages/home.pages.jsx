@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
-    <div className="flex items-center justify-center mt-24 md:min-h-screen xl:min-h-min">
+    <div className="flex items-center justify-center mt-48 md:min-h-screen xl:min-h-min">
       <div className="flex flex-col gap-20 md:flex-row">
         <div className="flex flex-col justify-center" data-aos="fade-right">
           <p className="font-medium text-darkPrimary text-md">

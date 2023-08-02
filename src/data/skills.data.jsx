@@ -36,12 +36,4 @@ export const skills = [
     title: "SASS",
     icon: "devicon-sass-original colored",
   },
-  {
-    title: "Python",
-    icon: "devicon-python-plain-wordmark colored",
-  },
-  {
-    title: "PHP",
-    icon: "devicon-php-plain colored",
-  },
 ];
